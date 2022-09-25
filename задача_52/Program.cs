@@ -51,6 +51,7 @@ void PrintArray2(int[,] array)
 
 void PrintArray(double[] array)
 {
+    Console.Write("Среднее арифметическое каждого столбца: ");
     for (int i = 0; i < array.Length; i++)
     {
         string result = string.Format("{0:f1}", array[i]);
